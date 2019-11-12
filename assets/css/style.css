@@ -38,7 +38,7 @@ header {
 
 header h1 {
     margin-left: -20%;
-    color: #3f42a2;
+    color: #020366;
 }
 
 .logo img {
@@ -64,7 +64,7 @@ header h1 {
 .navitem a {
     /*    text-decoration: none;*/
     /*    font-family: verdana;*/
-    color: #3f42a2;
+    color: #020366;
     padding: 10px;
 }
 
@@ -106,7 +106,7 @@ header h1 {
 }
 
 
-.text h2,
+.text h1,
 .text p {
     padding: 20px 30px;
     color: #020366;
@@ -275,9 +275,11 @@ input[type=submit]:hover {
     background-color: #71306247;
     margin: 0 auto;
     text-align: center;
-    /*    height: calc(100vh - 160px);*/
     max-width: 70%;
     border-radius: 2%;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 #about img {
