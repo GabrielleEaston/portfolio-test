@@ -73,6 +73,10 @@ header h1 {
     font-weight: 800;
 }
 
+.navitem a:hover {
+    color: #713062;
+
+}
 
 /*Main banner*/
 .main-banner {
@@ -189,15 +193,20 @@ header h1 {
     border-radius: 20%;
 }
 
+/*FOOTER*/
+
 footer {
     background-image: url(../img/Rose-Petals.svg);
     text-align: center;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     color: white;
     font-family: 'PT Sans', sans-serif;
+}
 
-
+footer div {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*Styling Contact.html*/
@@ -235,6 +244,10 @@ display h1 {
 
 .contact-info a {
     font-weight: 600;
+}
+
+.contact-info a:hover {
+    color: #3a092e;
 }
 
 .container {
@@ -313,11 +326,10 @@ input[type=submit]:hover {
 #about p {
     display: block;
     margin: 0 auto;
-    width: 90%;
+    width: 60%;
     padding: 20px 20px;
     font-family: 'PT Sans', sans-serif;
-
-
+    font-size: 20px;
 }
 
 #about h2 {
