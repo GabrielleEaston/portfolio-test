@@ -1,6 +1,7 @@
 /*Style for the main page*/
 
-@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Pacifico|Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
 * {
     margin: 0;
@@ -25,6 +26,7 @@ img {
 
 
 
+
 /*HEADER*/
 header {
     background-color: #BBAA77;
@@ -39,6 +41,7 @@ header {
 header h1 {
     margin-left: -20%;
     color: #020366;
+    font-family: 'Permanent Marker', sans-serif;
 }
 
 .logo img {
@@ -66,6 +69,8 @@ header h1 {
     /*    font-family: verdana;*/
     color: #020366;
     padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 800;
 }
 
 
@@ -110,7 +115,7 @@ header h1 {
 .text p {
     padding: 20px 30px;
     color: #020366;
-    font-family: verdana;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .main-banner img {
@@ -134,11 +139,15 @@ header h1 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+
 }
 
 .gallery h1 {
     padding: 15px 15px;
     color: #fff;
+    font-family: 'Permanent Marker', sans-serif;
+
+
 }
 
 .flex-container {
@@ -166,6 +175,8 @@ header h1 {
 
 .project h3 {
     padding-bottom: 10px;
+    font-family: 'Permanent Marker', sans-serif;
+
 
 }
 
@@ -184,6 +195,9 @@ footer {
     padding-bottom: 40px;
     padding-top: 40px;
     color: white;
+    font-family: 'PT Sans', sans-serif;
+
+
 }
 
 /*Styling Contact.html*/
@@ -199,6 +213,10 @@ footer {
     border-radius: 8%;
 }
 
+display h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
 .contact-info {
     text-align: center;
     padding: 20px 20px;
@@ -212,6 +230,7 @@ footer {
 .contact-info span,
 .contact-info a {
     color: #603a61fa;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .contact-info a {
@@ -234,7 +253,7 @@ footer {
 
 /*Styling the form*/
 input[type=text],
-input[type=tel],
+input[type=email],
 select,
 textarea {
     width: 100%;
@@ -280,6 +299,7 @@ input[type=submit]:hover {
     margin-top: 25px;
     padding-bottom: 50px;
     padding-top: 20px;
+
 }
 
 #about img {
@@ -295,6 +315,7 @@ input[type=submit]:hover {
     margin: 0 auto;
     width: 90%;
     padding: 20px 20px;
+    font-family: 'PT Sans', sans-serif;
 
 
 }
@@ -302,12 +323,14 @@ input[type=submit]:hover {
 #about h2 {
     padding-top: 25px;
     padding-bottom: 10px;
+    font-family: 'Permanent Marker', sans-serif;
 
 }
 
 #about h3 {
     padding-top: 10px;
     padding-bottom: 18px;
+    font-family: 'Permanent Marker', sans-serif;
 
 }
 
