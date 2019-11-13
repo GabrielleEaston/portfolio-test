@@ -121,26 +121,26 @@ footer div {
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
-    width: 40%;
-    padding: 20px 20px;
+    width: 30%;
+    padding: 10px 10px;
 }
 
 
 .text h1,
 .text p {
-    padding: 20px 30px;
+    padding: 5px 5px;
     color: #020366;
     font-family: 'PT Sans', sans-serif;
 }
 
 .text p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .main-banner img {
     display: block;
     border-radius: 10%;
-    width: 500px;
+    width: 300px;
     padding-top: 20px;
     padding-bottom: 20px;
     filter: grayscale();
